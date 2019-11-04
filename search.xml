@@ -4,7 +4,51 @@
   
     
     <entry>
-      <title>nuxt</title>
+      <title>fultter</title>
+      <link href="/2019/11/04/fultter/"/>
+      <url>/2019/11/04/fultter/</url>
+      
+        <content type="html"><![CDATA[<h1 id="fultter简介"><a href="#fultter简介" class="headerlink" title="fultter简介"></a>fultter简介</h1>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> UI </tag>
+            
+            <tag> Android </tag>
+            
+            <tag> IOS </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>typescript 笔记</title>
+      <link href="/2019/11/04/typescript/"/>
+      <url>/2019/11/04/typescript/</url>
+      
+        <content type="html"><![CDATA[<h1 id="TypeScript-简介"><a href="#TypeScript-简介" class="headerlink" title="TypeScript 简介"></a>TypeScript 简介</h1><p>TypeScript 并不是一个完全新的语言, 它是 JavaScript 的超集，为 JavaScript 的生态增加了类型机制，并最终将代码编译为纯粹的 JavaScript 代码。</p><p>TypeScript 由 Microsoft(算上 Angular 2 的话加上 Google)开发和维护的一种开源编程语言。 它支持 JavaScript 的所有语法和语义，同时通过作为 ECMAScript 的超集来提供一些额外的功能，如类型检测和更丰富的语法。下图显示了 TypeScript 与 ES5，ES2015，ES2016 之间的关系。</p><a id="more"></a><p><img src="https://user-gold-cdn.xitu.io/2017/7/2/fa9c36fbf520cf0e0e66ebf71844275d?imageView2/0/w/1280/h/960/format/webp/ignore-error/1" alt="avatar"></p><h1 id="TypeScript-数据类型"><a href="#TypeScript-数据类型" class="headerlink" title="TypeScript 数据类型"></a>TypeScript 数据类型</h1><h3 id="String-类型"><a href="#String-类型" class="headerlink" title="String 类型"></a>String 类型</h3><p>一个保存字符串的文本，类型声明为 string。可以发现类型声明可大写也可小写，后文同理。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">let name: string = &apos;muyy&apos;</span><br><span class="line">let name2: String = &apos;muyy&apos;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> JS </tag>
+            
+            <tag> TS </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>nuxt 笔记</title>
       <link href="/2019/11/04/nuxt/"/>
       <url>/2019/11/04/nuxt/</url>
       
@@ -14,24 +58,11 @@
       
         <tags>
             
-            <tag> vue </tag>
+            <tag> Vue </tag>
             
-            <tag> js </tag>
+            <tag> JS </tag>
             
         </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>typescript</title>
-      <link href="/2019/11/04/typescript/"/>
-      <url>/2019/11/04/typescript/</url>
-      
-        <content type="html"><![CDATA[<h1 id="TypeScript笔记"><a href="#TypeScript笔记" class="headerlink" title="TypeScript笔记"></a>TypeScript笔记</h1><p>123</p>]]></content>
-      
-      
       
     </entry>
     
