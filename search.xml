@@ -4,25 +4,6 @@
   
     
     <entry>
-      <title>nuxt</title>
-      <link href="/2019/11/04/nuxt/"/>
-      <url>/2019/11/04/nuxt/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Nuxt-简介"><a href="#Nuxt-简介" class="headerlink" title="Nuxt 简介"></a>Nuxt 简介</h1><p>Nuxt 作为 Vue 官方文档中“服务端渲染”中推荐的框架，SSR 这种方式对于首屏加载的时间优化显而易见，同时可以方便地进行 SEO。</p><h1 id="Nuxt-优势"><a href="#Nuxt-优势" class="headerlink" title="Nuxt 优势"></a>Nuxt 优势</h1><p>1、项目不用再为路由划分而烦恼，你只需要按照对应的文件夹层级（Page 下）创建.vue 文件即可(相当于内部封装了 vue-router)。<br>2、项目无需考虑数据传输问题，nuxt 会在模板输出之后异步请求数据（需要引入 axios 库），而且对 vuex 有进一步的封装。<br>3、nuxt 内置了 webpack，省去了配置 webpack 的步骤，nuxt 会根据配置打包对应的文件。</p><h1 id="Nuxt-项目目录结构"><a href="#Nuxt-项目目录结构" class="headerlink" title="Nuxt 项目目录结构"></a>Nuxt 项目目录结构</h1><p>assets —————–资源目录，用于组织未编译的静态资源（如 less 或 sass）<br>components ————-组件目录，用于组织应用的 Vue.js 组件<br>layouts —————-布局目录，用于组织应用的布局组件<br>middleware ————-中间件目录，用于存放应用的中间件<br>pages ——————页面目录，用于组织应用的路由及视图<br>plugins —————-插件目录，用于组织那些需要在 vue.js 应用实例化之前需要运行的 JavaScript 插件<br>static —————–静态文件目录，用于存放应用的静态资源文件，此类文件不会被 Nuxt.js 调用 Webpack 进行构建编译处理<br>store ——————存储目录，用于组织应用的 vuex 状态树文件<br>nuxt.config.js ———用于组织 Nuxt.js 应用的个性化配置<br>package.json ———–用于描述应用的依赖关系和对外暴露的脚本接口</p><h1 id="Nuxt-渲染流程"><a href="#Nuxt-渲染流程" class="headerlink" title="Nuxt 渲染流程"></a>Nuxt 渲染流程</h1><p>具体流程如下：<br>1、调用 nuxtServerInit 方法<br>当请求开始进入时，最先调用的是 nuxtServerInit 方法，可以通过这个方法预先将服务器的数据保存，如已登录的用户信息，另外，这个方法也可以执行异步操作，并等待数据解析后返回。<br>2、Middleware 层<br>经过第一步后，请求会进入 Middleware 层，在该层中有三布操作：<br>·读取 nuxt.config.js 中的全局 middleware 字段的配置，并调用相应的中间件方法<br>·匹配并加载与请求相对应的 layout<br>·调用 layout 和 page 的中间件方法<br>3、调用 validate 方法<br>在这一步可以对请求参数进行校验，或是对第一步中服务器下发的数据进行校验，如果校验失败，将抛出 404 页面。<br>4、调用 fetch 及 asyncData 方法<br>这两个方法都会在组件加载之前被调用，它们的职责各有不同，asyncData 用来异步的进行组件数据的初始化工作，而 fetch 方法偏重于异步获取数据后修改 vuex 中的状态。</p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> vue </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>typescript</title>
       <link href="/2019/11/04/typescript/"/>
       <url>/2019/11/04/typescript/</url>
