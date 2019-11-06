@@ -54,12 +54,12 @@
   <meta name="description" content="fultter简介Flutter是谷歌的移动UI框架，可以快速在iOS和Android上构建高质量的原生用户界面。 Flutter可以与现有的代码一起工作。在全世界，Flutter正在被越来越多的开发者和组织使用，并且Flutter是完全免费、开源的。开始FLutter可以在Windows、Linux、Mac上进行开发，开发工具可以使用VS Code、Android Studio、IDEA等，本文">
 <meta name="keywords" content="UI,Android,IOS">
 <meta property="og:type" content="article">
-<meta property="og:title" content="fultter">
+<meta property="og:title" content="fultter笔记">
 <meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;04&#x2F;fultter&#x2F;index.html">
 <meta property="og:site_name" content="星辰大海">
 <meta property="og:description" content="fultter简介Flutter是谷歌的移动UI框架，可以快速在iOS和Android上构建高质量的原生用户界面。 Flutter可以与现有的代码一起工作。在全世界，Flutter正在被越来越多的开发者和组织使用，并且Flutter是完全免费、开源的。开始FLutter可以在Windows、Linux、Mac上进行开发，开发工具可以使用VS Code、Android Studio、IDEA等，本文">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-11-06T06:27:05.470Z">
+<meta property="og:updated_time" content="2019-11-06T06:48:07.245Z">
 <meta name="twitter:card" content="summary">
 
 <link rel="canonical" href="http://yoursite.com/2019/11/04/fultter/">
@@ -76,7 +76,7 @@
   };
 </script>
 
-  <title>fultter | 星辰大海</title>
+  <title>fultter笔记 | 星辰大海</title>
   
 
 
@@ -189,7 +189,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          fultter
+          fultter笔记
         </h1>
 
         <div class="post-meta">
@@ -206,7 +206,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2019-11-06 14:27:05" itemprop="dateModified" datetime="2019-11-06T14:27:05+08:00">2019-11-06</time>
+                <time title="修改时间：2019-11-06 14:48:07" itemprop="dateModified" datetime="2019-11-06T14:48:07+08:00">2019-11-06</time>
               </span>
 
           
@@ -231,6 +231,15 @@
 <p>VS Code提供了更好的代码提示功能</p>
 <p>IDEA提供了Flutter Inspector，可实时审查页面元素</p>
 <p>可根据个人喜好、习惯选择使用。</p>
+<h2 id="主要技术点"><a href="#主要技术点" class="headerlink" title="主要技术点"></a>主要技术点</h2><h3 id="Dart"><a href="#Dart" class="headerlink" title="Dart"></a>Dart</h3><p>Flutter项目的开发语言是Dart，Dart 是由 Google 开发的一种面向对象语言，可以编译成 ARM 和 x86 代码直接运行在 iOS、Android 设备上。</p>
+<p>推荐先学习Dart语言官方教程，对Dart有初步了解之后再进行Flutter的学习和开发。</p>
+<h3 id="界面开发"><a href="#界面开发" class="headerlink" title="界面开发"></a>界面开发</h3><p>终于可以进入Flutter本身了。</p>
+<h3 id="Widget"><a href="#Widget" class="headerlink" title="Widget"></a>Widget</h3><p>Flutter中页面所有元素都是Widget，又分为StatelessWidget和StatefulWidget。</p>
+<p>顾名思义，StatelessWidget 就是指无可变状态的 Widget，这类 Widget 的状态只由创建 Widget 时传入的参数决定，一旦创建，其状态、在页面上的展示效果也就不再改变。</p>
+<p>而 StatefulWidget 内部则存在着可变状态。当通过setState改变这些状态时，Flutter 会重新渲染该 Widget。</p>
+<h3 id="布局"><a href="#布局" class="headerlink" title="布局"></a>布局</h3><p>在实际开发中，主要使用了Row、Column、Container、Expanded、Stack等。</p>
+<p>Row、Column提供了水平、垂直方向的布局，Stack提供了堆叠方式的布局，各种容器有不同的特性，可根据实际页面需求选择搭配不同的布局。</p>
+<p>推荐学习 官方文档 及 国内维护的中文翻译。</p>
 
     </div>
 
@@ -298,7 +307,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#fultter简介"><span class="nav-number">1.</span> <span class="nav-text">fultter简介</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#开始"><span class="nav-number">1.1.</span> <span class="nav-text">开始</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#搭建开发环境"><span class="nav-number">1.1.1.</span> <span class="nav-text">搭建开发环境</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#配置编辑器"><span class="nav-number">1.1.2.</span> <span class="nav-text">配置编辑器</span></a></li></ol></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#fultter简介"><span class="nav-number">1.</span> <span class="nav-text">fultter简介</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#开始"><span class="nav-number">1.1.</span> <span class="nav-text">开始</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#搭建开发环境"><span class="nav-number">1.1.1.</span> <span class="nav-text">搭建开发环境</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#配置编辑器"><span class="nav-number">1.1.2.</span> <span class="nav-text">配置编辑器</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#主要技术点"><span class="nav-number">1.2.</span> <span class="nav-text">主要技术点</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Dart"><span class="nav-number">1.2.1.</span> <span class="nav-text">Dart</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#界面开发"><span class="nav-number">1.2.2.</span> <span class="nav-text">界面开发</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Widget"><span class="nav-number">1.2.3.</span> <span class="nav-text">Widget</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#布局"><span class="nav-number">1.2.4.</span> <span class="nav-text">布局</span></a></li></ol></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
